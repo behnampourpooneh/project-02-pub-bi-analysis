@@ -1,68 +1,88 @@
 # project-02-pub-bi-analysis
-# Book Publishing Industry Analysis (SQL BI Project)
+# 📊 Publishing Industry Business Intelligence Case Study
 
 ## 📌 Project Overview
-This project analyzes a book publishing dataset to extract business insights related to publishers, authors, employees, book pricing, and sales distribution.
+This project analyzes a publishing industry dataset using SQL to extract business insights related to publishers, books, authors, employees, and pricing strategies.
 
-The goal is to understand patterns in pricing, workforce structure, and product segmentation within the publishing industry using SQL-based analysis.
+The goal is to simulate real-world BI reporting by transforming raw relational data into actionable business insights.
+
+---
+
+## 🧠 Business Context
+Publishing companies rely on data to understand:
+- Which book categories generate the most value
+- How pricing strategies vary across genres
+- How workforce distribution affects operations
+- How authors and publishers are distributed geographically
+
+This project addresses these questions using SQL-based analysis.
 
 ---
 
 ## 🎯 Business Objectives
 - Analyze publisher distribution across countries
-- Evaluate employee experience and hiring trends
-- Understand book pricing strategy
-- Identify top job roles and workforce distribution
-- Analyze author distribution by region
-- Segment books based on price and category
+- Evaluate book pricing strategy and segmentation
+- Measure employee experience and hiring trends
+- Understand author geographic distribution
+- Identify top job roles in the organization
+- Analyze pricing extremes and category behavior
 
 ---
 
 ## 📊 Key Business Analyses
 
-### 1. Publisher Geographic Analysis
-Identified publishers located in different countries to understand market distribution.
+### 1. Publisher Market Distribution
+Analyzed publisher locations across Germany and France to understand geographic concentration.
 
 ### 2. Book Pricing Strategy
-Analyzed pricing ranges and categorized books based on price segments.
+Evaluated book prices across categories, including:
+- Average price per category
+- Price ranges (min/max)
+- Price segmentation (low/medium/high)
 
-### 3. Employee Experience Analysis
-Measured employee experience based on hiring dates.
+### 3. Employee Analytics
+Measured workforce structure including:
+- Experience level (based on hire date)
+- Hiring trends over time
+- Job role distribution
 
-### 4. Hiring Trends
-Evaluated number of employees hired per year.
+### 4. Author Distribution Analysis
+Analyzed author distribution across states and cities to identify regional concentration.
 
-### 5. Author Distribution
-Analyzed distribution of authors across states and cities.
+### 5. Product (Book) Segmentation
+Identified:
+- Most expensive books per category
+- Price-based grouping of books
 
-### 6. Book Category Pricing
-Evaluated average, minimum, and maximum pricing per category.
-
-### 7. Job Role Distribution
-Identified most common job roles in the dataset.
-
-### 8. Top Priced Books
-Extracted highest priced books per category using window functions.
+### 6. Category Performance Analysis
+Measured how each book category contributes to overall pricing structure.
 
 ---
 
 ## 💡 Key Insights
-- Publisher distribution is uneven across regions.
-- Book pricing varies significantly by category.
-- Workforce structure is concentrated in specific job roles.
-- Certain categories dominate in pricing strategy.
-- Author distribution is highly region-dependent.
+
+- Book pricing varies significantly across categories, indicating different market positioning strategies.
+- Employee hiring patterns suggest periodic recruitment cycles.
+- Author distribution is geographically concentrated in specific regions.
+- Certain book categories dominate in both pricing and volume influence.
+- Publishing operations show clear segmentation between low and high-value content.
 
 ---
 
-## 🛠️ Tools
+## 📈 Business Value
+
+This analysis demonstrates the ability to:
+- Translate raw SQL data into business insights
+- Build structured BI reporting logic
+- Understand pricing and workforce analytics
+- Support strategic decision-making in a publishing business
+
+---
+
+## 🛠️ Tools Used
 - SQL (T-SQL)
 - Microsoft SQL Server
-
----
-
-## 🎯 Purpose
-This project demonstrates SQL-based data exploration and business intelligence thinking applied to a publishing dataset.
+- Relational Data Modeling
 
 ---
 
